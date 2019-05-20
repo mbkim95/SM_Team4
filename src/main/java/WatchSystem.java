@@ -13,7 +13,7 @@ public class WatchSystem {
     public WatchSystem() {
         TimeThread thread = new TimeThread(this);
 
-        //System_GUI system_gui = new System_GUI(this);
+        System_GUI system_gui = new System_GUI(this);
         //Time timeLive = new Time(55, 59, 23);
         this.menu = new Mode[]{
                 new RealTime(),
