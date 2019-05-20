@@ -5,7 +5,7 @@ public class WatchSystem {
     private int maxCnt;
 
     public static void main(String[] args) {
-      SeparateSection test = new SeparateSection();
+      eparateSection test = new SeparateSection();
       test.test();
     //    WatchSystem run = new WatchSystem();
     }
