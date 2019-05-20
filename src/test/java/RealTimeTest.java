@@ -24,7 +24,7 @@ public class RealTimeTest {
         RealTime realTime = new RealTime();
         realTime.nextSection();
         realTime.increaseTime();
-        assertEquals(1, realTime.requestRealTime().get(Calendar.MINUTE));
+        assertEquals(-1, realTime.requestRealTime().get(Calendar.MINUTE));
 
         // Test Separate Sections
         for(int i = 0; i < 59; i++)
